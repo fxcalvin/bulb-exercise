@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Switch</title>
+</head>
+
+<body>
+    <h2>Bulb exercise {V-if and v-else}</h2>
+    <div id="BULB">
+        <img v-if="display" src="https://www.w3schools.com/js/pic_bulbon.gif">
+        <img v-else src="https://www.w3schools.com/js/pic_bulboff.gif">
+        <button @click="toggleBulb()">Switch</button>
+        <h3>click on the switch button to turn on and off</h3>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.20/dist/vue.global.prod.min.js"></script>
+    <script src="bulb2.js"></script>
+</body>
+
+</html>
